@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'Chronicle Display Light Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Chronicle Display Light Italic'), url('Chronicle Display Light Italic.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Chronicle Display Roman';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Chronicle Display Roman'), url('Chronicle Display Roman.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Chronicle Display Semibold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Chronicle Display Semibold'), url('Chronicle Display Semibold.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Chronicle Display Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Chronicle Display Black'), url('Chronicle Display Black.woff') format('woff');
+}
+
+body {
+
+    font-family: 'Chronicle Display Roman';
+    color: white;
+}
+.bg {
+    background: url(images/background.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+/*TITRE*/
+h1{
+    font-size: 5vw;
+    font-weight: 700;
+}
+h2{
+    font-size: 70px;
+    font-weight: 600;
+}
+h3{
+    font-size: 24px;
+    font-weight: 650;
+    color: #fbd784;
+}
+h4{
+    font-size: 18px;
+    font-weight: 500;
+    color: #fbd784;
+    
+}
+/*LIENS*/
+.liens {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+.liens:hover {
+    color: #fbd784;
+}
+ul {
+    list-style: none;
+}
+/*HEADER*/
+.middle-page {
+    margin: 250px 0 0 400px;
+}
+nav li{
+    font-family: 'Chronicle Display Light Italic';
+}
+/*ACCOUNT*/
+.account {
+    font-size: 20px;
+
+}
+/*LOGO MNTN*/
+.mntn {
+    font-size: 35px;
+    color:white;
+    text-decoration: none;
+    font-weight: 700;
+}
+.mntn:hover {
+    color:white;
+    text-decoration: none;
+    font-weight: 700;
+}
+/*SECTION*/
+section {
+    margin-top: 1000px;
+}
+section p {
+    font-size: 16px;
+    font-family: 'Sans Serif', Arial, sans-serif;
+    line-height: 32px;
+    font-weight: 500;
+    
+}
+section .liens {
+    color: #fbd784;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 700;
+}
+.section-row {
+    margin-bottom: 200px;
+}
+.numbercount
+{
+    position: relative;
+    left: -100px;
+    bottom: -100px;
+    z-index: 0;
+    opacity: 0.1;
+    font-size: 200px;
+    line-height: 100%;
+    font-weight: 700;
+}
+.tagline-line {
+    width: 72px;
+    height: 2px;
+    margin-right: 24px;
+    background-color: #fbd784;
+}
+.grey {
+    opacity: 0.5;
+}
+
+/*FOOTER*/
+footer h1 {
+    color: #fbd784;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+footer li {
+    line-height: 32px;
+}
